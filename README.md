@@ -3,7 +3,7 @@
 ## Usage
 ```js
 import React, { Component } from 'react';
-import Toast from 'react-simple-toast';
+import Toast from 'react-simple-toast-msg';
 
 class ShowToast extends Component {
   constructor() {
