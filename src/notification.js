@@ -3,7 +3,7 @@
  * @Author: JiangBao
  * @Date: 2018-08-22 17:18:00
  * @Last Modified by: JiangBao
- * @Last Modified time: 2018-08-22 18:09:52
+ * @Last Modified time: 2018-08-24 15:40:52
  */
 import React, { Component } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
@@ -22,7 +22,7 @@ class Notification extends Component {
   }
 
   addNotice(notice) {
-    const noticeObj = { ...notice };
+    const noticeObj = notice;
     const { notices } = this.state;
     noticeObj.key = this.getNoticeKey();
 
