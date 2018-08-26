@@ -26,3 +26,6 @@ class ShowToast extends Component {
 
 export default ShowToast;
 ```
+
+## DEMO
+![demo](./demo.gif)
